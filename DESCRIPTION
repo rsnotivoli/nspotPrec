@@ -1,0 +1,12 @@
+Package: nspotPrec
+Type: Package
+Title: NSPOT analysis of daily precipitation and climate indices.
+Version: 0.1
+Authors@R: c(person("Serrano-Notivoli", "Roberto", email = "roberto.serrano@uam.es", role = c("aut", "cre")),person("Begueria", "Santiago", email = "santiago.begueria@csic.es", role = c("aut")))
+Maintainer: Roberto Serrano-Notivoli <roberto.serrano@uam.es>
+Description: Applies a NSPOT analysis to daily precipitation data based on the influence of user-selected climate (or other) indices
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2,rnaturalearth,rnaturalearthhires,sf,raster,dplyr,reshape,stats,ismev,evd,quantreg
+RoxygenNote: 7.1.2
